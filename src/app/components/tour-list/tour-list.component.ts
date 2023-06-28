@@ -4,8 +4,7 @@ import { TourService } from 'src/app/services/tour.service';
 
 @Component({
   selector: 'app-tour-list',
-  templateUrl: './tour-list.component.html',
-  styleUrls: ['./tour-list.component.css']
+  templateUrl: './tour-list.component.html'
 })
 export class TourListComponent implements OnInit{
   tours: Tour[] = [];

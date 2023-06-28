@@ -3,8 +3,7 @@ import { ImageService } from 'src/app/services/image.service';
 
 @Component({
   selector: 'app-gallery',
-  templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  templateUrl: './gallery.component.html'
 })
 export class GalleryComponent implements OnInit {
   public gallery: string[] = [];
