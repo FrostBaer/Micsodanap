@@ -1,0 +1,94 @@
+{
+    "tours": [
+        {
+            "name": "A Magas-Tátra hegyvilága",
+            "image": "../assets/bg1.jpg",
+            "duration": "6 nap",
+            "price": 50000,
+            "location": "Poprad",
+            "country": "Szlovákia",
+            "type": "HolidayType.mountains",
+            "description": ""
+        },
+        {
+            "name": "Szlovén csúcsok I. - Grintovac",
+            "image": "../assets/bg11.webp",
+            "duration": "3 nap",
+            "price": 30000,
+            "location": "Kamnik",
+            "country": "Szlovénia",
+            "type": "HolidayType.mountains",
+            "description": ""
+        },
+        {
+            "name": "Szlovén csúcsok II. Dolina Krma - Planika -Triglav",
+            "image": "../assets/bg11.webp",
+            "duration": "3 nap",
+            "price": 30000,
+            "location": "Jesenice",
+            "country": "Szlovénia",
+            "type": "HolidayType.mountains",
+            "description": ""
+        },
+        {
+            "name": "Kalandozás az Alacsony-Tátrában",
+            "image": "../assets/bg2.jpg",
+            "duration": "5 nap",
+            "price": 50000,
+            "location": "Poprad",
+            "country": "Szlovákia",
+            "type": "HolidayType.adventure",
+            "description": ""
+        },
+        {
+            "name": "Tátrai fürdők",
+            "image": "../assets/bg5.jpg",
+            "duration": "3 nap",
+            "price": 60000,
+            "location": "Poprad",
+            "country": "Szlovákia",
+            "type": "HolidayType.leisure",
+            "description": ""
+        },
+        {
+            "name": "Siklók, csuszkák nyomában",
+            "image": "../assets/bg8.jpg",
+            "duration": "4 óra",
+            "price": 1500,
+            "location": "Tata, Fényes tanösvény",
+            "country": "Magyarország",
+            "type": "HolidayType.children",
+            "description": ""
+        },
+        {
+            "name": "Természetes mesék",
+            "image": "../assets/bg8.jpg",
+            "duration": "2 óra",
+            "price": 1000,
+            "location": "Pest megye",
+            "country": "Magyarország",
+            "type": "HolidayType.children",
+            "description": ""
+        },
+        {
+            "name": "Kiránduljunk együtt!",
+            "image": "../assets/bg9.jpg",
+            "duration": "5 óra",
+            "price": 0,
+            "location": "Pilisvörösvár",
+            "country": "Magyarország",
+            "type": "HolidayType.short",
+            "description": "Túrázz velünk a Pilisben!"
+        },
+        {
+            "name": "Barlangolás Aggteleken",
+            "image": "../assets/bg10.jpg",
+            "duration": "2 éjszaka",
+            "price": 10000,
+            "location": "Aggtelek",
+            "country": "Magyarország",
+            "type": "HolidayType.leisure",
+            "description": "Fedezd fel az Aggteleki karsztot!"
+        }
+    ]
+}

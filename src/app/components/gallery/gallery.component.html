@@ -1,0 +1,8 @@
+<div>
+    <app-header></app-header>
+</div>
+<div *ngIf="gallery" class="grid grid-cols-5">
+    <div *ngFor="let image of gallery" class="m-4 py-2">
+        <img src="{{image}}" alt="img" class="w-100 rounded-xl mx-auto hover:shadow-lg hover:scale-105 duration-300 ease-linear">
+    </div>    
+</div>

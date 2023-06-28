@@ -1,0 +1,50 @@
+<section class="w-full bg-center bg-cover">
+    <div class="w-full bg-gradient-to-br from-amber-100 via-lime-200 via-50% to-transparent">
+        <div>
+            <app-header></app-header>
+        </div>
+        <div class="grid grid-cols-4 gap-4">
+            <div
+                class="rounded-xl w-52 h-64 mx-auto mt-10 bg-gradient-to-tl p-[4px] from-[#fffab8] via-[#eba85c] to-[#f0740f] duration-300 hover:scale-103 ease-linear cursor-pointer">
+                <div class="flex flex-col justify-between h-full bg-white text-white rounded-lg p-4">
+                    <div
+                        class="text-transparent text-center text-2xl m-auto bg-clip-text bg-gradient-to-br from-amber-200 via-orange-300 to-orange-600">
+                        Ingyenes programok
+                    </div>
+                </div>
+            </div>
+            <a [routerLink]="'/hiking'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-sky-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-sky-100 to-sky-200 duration-300 ease-linear cursor-pointer">
+                <img src="../assets/t2.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Csúcshódítás</p>
+            </a>
+            <a [routerLink]="'/adventure'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-green-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-green-100 to-green-200 duration-300 ease-linear cursor-pointer">
+                <!-- origin-bottom rotate-0 duration-500 hover:rotate-3 ease-linear -->
+                <img src="../assets/t10.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Kalandtúrák</p>
+            </a>
+            <a [routerLink]="'/leisure'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-amber-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-amber-100 to-amber-200 duration-300 ease-linear cursor-pointer">
+                <img src="../assets/t8.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Kikapcsolódás</p>
+            </a>
+            <a [routerLink]="'/teambuilding'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-purple-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-purple-100 to-purple-200 duration-300 ease-linear cursor-pointer">
+                <img src="../assets/t4.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Csapatépítés</p>
+            </a>
+            <a [routerLink]="'/schools'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-lime-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-lime-100 to-lime-200 duration-300 ease-linear cursor-pointer">
+                <img src="../assets/t9.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Iskoláknak</p>
+            </a>
+            <a [routerLink]="'/kindergarten'"
+                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-red-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-red-100 to-red-200 duration-300 ease-linear cursor-pointer">
+                <img src="../assets/t6.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">Óvodáknak</p>
+            </a>
+        </div>
+        <!-- <app-tour-list></app-tour-list> -->
+    </div>
+</section>

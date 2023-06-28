@@ -1,0 +1,54 @@
+{
+    "career": [
+        {
+            "title": "Túrafotós",
+            "image": "../assets/j2.jpg",
+            "start": "azonnal",
+            "payment": "1000/óra",
+            "location": "Budapest",
+            "country": "Magyarország",
+            "level": "diák",
+            "about": "",
+            "description": "",
+            "skills": [
+                "Dícsérték már a szépérzékedet",
+                "Szeretsz kirándulni, hegyet mászni",
+                "Pozitív és társaságkedvelő vagy"
+            ],
+            "application": "E-mailben küldd el nekünk a 3 legjobb fotódat."
+        },
+        {
+            "title": "Túravezető",
+            "image": "../assets/j1.webp",
+            "start": "azonnal",
+            "payment": "3000/óra",
+            "location": "Budapest",
+            "country": "Magyarország",
+            "level": "",
+            "about": "",
+            "description": "",
+            "skills": [
+                "Felelősségteljes és segítőkész vagy",
+                "Megbízható és türelmes vagy",
+                "Nyitott és társaságkedvelő vagy"
+            ],
+            "application": "E-mailben küldd el nekünk az önéletrajzod és egy fotót magadról a kedvenc túrád közben vagy hegycsúcsodon."
+        },
+        {
+            "title": "Óvodapedagógus környezeti foglalkozásokra",
+            "image": "../assets/j3.jpg",
+            "start": "azonnal",
+            "payment": "2000/óra",
+            "location": "Budapest",
+            "country": "Magyarország",
+            "level": "",
+            "about": "Mi a MiCsodaNapnál rendhagyó foglalkozásokat biztosítunk óvodás csoportoknak. Ha rajtad múlna, csak környezeti foglalkozást tartanál? Esküszöl a természet nyugtató hatására? Szívesebben tartanál foglalkozást egy erdei tisztáson mint a négy fal között? Gyere és próbáld ki magad nálunk!",
+            "description": "Óvodapedagógust keresünk környez ",
+            "skills": [
+                "Szereted a természetet és szívesen túrázol",
+                "Pozitív és lelkes vagy"
+            ],
+            "application": "E-mailben küldd el nekünk az önéletrajzodat."
+        }
+    ]
+}
