@@ -4,7 +4,7 @@
             "title": "Túrafotós",
             "image": "../assets/j2.jpg",
             "start": "azonnal",
-            "payment": "1000/óra",
+            "payment": "2000/óra",
             "location": "Budapest",
             "country": "Magyarország",
             "level": "diák",
@@ -38,7 +38,7 @@
             "title": "Óvodapedagógus környezeti foglalkozásokra",
             "image": "../assets/j3.jpg",
             "start": "azonnal",
-            "payment": "2000/óra",
+            "payment": "3000/óra",
             "location": "Budapest",
             "country": "Magyarország",
             "level": "",
@@ -49,6 +49,22 @@
                 "Pozitív és lelkes vagy"
             ],
             "application": "E-mailben küldd el nekünk az önéletrajzodat."
+        },
+        {
+            "title": "Animátor",
+            "image": "../assets/j1.webp",
+            "start": "azonnal",
+            "payment": "2000/óra",
+            "location": "Budapest",
+            "country": "Magyarország",
+            "level": "diák",
+            "about": "",
+            "description": "",
+            "skills": [
+                "Nyitott és jókedvű vagy",
+                "Jól tudsz bánni a gyerekekkel"
+            ],
+            "application": "E-mailben küldd el nekünk az önéletrajzod és egy fotót magadról a kedvenc túrád közben vagy hegycsúcsodon."
         }
     ]
 }
