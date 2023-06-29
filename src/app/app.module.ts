@@ -17,6 +17,8 @@ import { SchoolsComponent } from './components/tour-types/schools/schools.compon
 import { KindergartenComponent } from './components/tour-types/kindergarten/kindergarten.component';
 import { GyikComponent } from './components/gyik/gyik.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FamilyComponent } from './components/tour-types/family/family.component';
+import { FreeComponent } from './components/tour-types/free/free.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ContactComponent } from './components/contact/contact.component';
     SchoolsComponent,
     KindergartenComponent,
     GyikComponent,
-    ContactComponent
+    ContactComponent,
+    FamilyComponent,
+    FreeComponent
   ],
   imports: [
     BrowserModule,

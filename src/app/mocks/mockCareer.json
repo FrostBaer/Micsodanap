@@ -1,6 +1,7 @@
 {
-    "career": [
+    "careers": [
         {
+            "id": "0",
             "title": "Túrafotós",
             "image": "../assets/j2.jpg",
             "start": "azonnal",
@@ -8,8 +9,8 @@
             "location": "Budapest",
             "country": "Magyarország",
             "level": "diák",
-            "about": "",
-            "description": "",
+            "about": "Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim.",
+            "description": "Fusce at sapien sit amet tortor tempor vehicula at sit amet ante. Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim. Curabitur convallis interdum turpis a interdum. Proin eget elit sem.",
             "skills": [
                 "Dícsérték már a szépérzékedet",
                 "Szeretsz kirándulni, hegyet mászni",
@@ -18,6 +19,7 @@
             "application": "E-mailben küldd el nekünk a 3 legjobb fotódat."
         },
         {
+            "id": "1",
             "title": "Túravezető",
             "image": "../assets/j1.webp",
             "start": "azonnal",
@@ -25,8 +27,8 @@
             "location": "Budapest",
             "country": "Magyarország",
             "level": "",
-            "about": "",
-            "description": "",
+            "about": "Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim.",
+            "description": "Fusce at sapien sit amet tortor tempor vehicula at sit amet ante. Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim. Curabitur convallis interdum turpis a interdum. Proin eget elit sem.",
             "skills": [
                 "Felelősségteljes és segítőkész vagy",
                 "Megbízható és türelmes vagy",
@@ -35,6 +37,7 @@
             "application": "E-mailben küldd el nekünk az önéletrajzod és egy fotót magadról a kedvenc túrád közben vagy hegycsúcsodon."
         },
         {
+            "id": "2",
             "title": "Óvodapedagógus környezeti foglalkozásokra",
             "image": "../assets/j3.jpg",
             "start": "azonnal",
@@ -43,7 +46,7 @@
             "country": "Magyarország",
             "level": "",
             "about": "Mi a MiCsodaNapnál rendhagyó foglalkozásokat biztosítunk óvodás csoportoknak. Ha rajtad múlna, csak környezeti foglalkozást tartanál? Esküszöl a természet nyugtató hatására? Szívesebben tartanál foglalkozást egy erdei tisztáson mint a négy fal között? Gyere és próbáld ki magad nálunk!",
-            "description": "Óvodapedagógust keresünk környez ",
+            "description": "Fusce at sapien sit amet tortor tempor vehicula at sit amet ante. Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim. Curabitur convallis interdum turpis a interdum. Proin eget elit sem.",
             "skills": [
                 "Szereted a természetet és szívesen túrázol",
                 "Pozitív és lelkes vagy"
@@ -51,6 +54,7 @@
             "application": "E-mailben küldd el nekünk az önéletrajzodat."
         },
         {
+            "id": "3",
             "title": "Animátor",
             "image": "../assets/j1.webp",
             "start": "azonnal",
@@ -58,8 +62,8 @@
             "location": "Budapest",
             "country": "Magyarország",
             "level": "diák",
-            "about": "",
-            "description": "",
+            "about": "Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim.",
+            "description": "Fusce at sapien sit amet tortor tempor vehicula at sit amet ante. Mauris varius euismod arcu consectetur semper. Vestibulum non feugiat turpis. Praesent lacinia justo malesuada, congue quam at, blandit turpis. Curabitur neque quam, molestie nec felis non, posuere tincidunt enim. Curabitur convallis interdum turpis a interdum. Proin eget elit sem.",
             "skills": [
                 "Nyitott és jókedvű vagy",
                 "Jól tudsz bánni a gyerekekkel"

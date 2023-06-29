@@ -1,46 +1,62 @@
 {
     "tours": [
         {
+            "id": "0",
             "name": "A Magas-Tátra hegyvilága",
             "image": "../assets/bg1.jpg",
             "duration": "6 nap",
             "price": 50000,
             "location": "Poprad",
             "country": "Szlovákia",
-            "type": "HolidayType.mountains",
-            "description": ""
+            "description": "Mi ott leszünk. És Te?",
+            "category": [
+                "hike",
+                "adventure"
+            ]
         },
         {
+            "id": "1",
             "name": "Szlovén csúcsok I. - Grintovac",
             "image": "../assets/bg11.webp",
             "duration": "3 nap",
             "price": 30000,
             "location": "Kamnik",
             "country": "Szlovénia",
-            "type": "HolidayType.mountains",
-            "description": ""
+            "description": "6 órás túra Szlovénia legmagasabb csúcsára.",
+            "category": [
+                "hike"
+            ]
         },
         {
+            "id": "2",
             "name": "Szlovén csúcsok II. Dolina Krma - Planika -Triglav",
             "image": "../assets/bg11.webp",
             "duration": "3 nap",
             "price": 30000,
             "location": "Jesenice",
             "country": "Szlovénia",
-            "type": "HolidayType.mountains",
-            "description": ""
+            "description": "",
+            "category": [
+                "hike"
+            ]
         },
         {
+            "id": "3",
             "name": "Kalandozás az Alacsony-Tátrában",
             "image": "../assets/bg2.jpg",
             "duration": "5 nap",
             "price": 50000,
             "location": "Poprad",
             "country": "Szlovákia",
-            "type": "HolidayType.adventure",
-            "description": ""
+            "description": "",
+            "category": [
+                "adventure",
+                "teambuilding",
+                "family"
+            ]
         },
         {
+            "id": "4",
             "name": "Tátrai fürdők",
             "image": "../assets/bg5.jpg",
             "duration": "3 nap",
@@ -48,47 +64,66 @@
             "location": "Poprad",
             "country": "Szlovákia",
             "type": "HolidayType.leisure",
-            "description": ""
+            "description": "",
+            "category": [
+                "leisure",
+                "family"
+            ]
         },
-        {
+        {            
+            "id": "5",
             "name": "Siklók, csuszkák nyomában",
             "image": "../assets/bg8.jpg",
             "duration": "4 óra",
             "price": 1500,
             "location": "Tata, Fényes tanösvény",
             "country": "Magyarország",
-            "type": "HolidayType.children",
-            "description": ""
+            "description": "",
+            "category": [
+                "kindergarten"
+            ]
         },
         {
+            "id": "6",
             "name": "Természetes mesék",
             "image": "../assets/bg8.jpg",
             "duration": "2 óra",
             "price": 1000,
             "location": "Pest megye",
             "country": "Magyarország",
-            "type": "HolidayType.children",
-            "description": ""
+            "description": "Az erdőről az erdőben - gyerekeknek.",
+            "category": [
+                "kindergarten"
+            ]
         },
         {
+            "id": "7",
             "name": "Kiránduljunk együtt!",
             "image": "../assets/bg9.jpg",
             "duration": "5 óra",
             "price": 0,
             "location": "Pilisvörösvár",
             "country": "Magyarország",
-            "type": "HolidayType.short",
-            "description": "Túrázz velünk a Pilisben!"
+            "description": "Túrázz velünk a Pilisben!",
+            "category": [
+                "leisure",
+                "family"
+            ]
         },
-        {
+        {            
+            "id": "8",
             "name": "Barlangolás Aggteleken",
             "image": "../assets/bg10.jpg",
             "duration": "2 éjszaka",
             "price": 10000,
-            "location": "Aggtelek",
+            "location": "Aggteleki Nemzeti Park",
             "country": "Magyarország",
-            "type": "HolidayType.leisure",
-            "description": "Fedezd fel az Aggteleki karsztot!"
+            "description": "Fedezd fel az Aggteleki karsztot!",
+            "category": [
+                "leisure",
+                "adventure",
+                "teambuilding"
+            ]
         }
     ]
 }

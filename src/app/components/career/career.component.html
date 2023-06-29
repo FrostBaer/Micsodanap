@@ -1,3 +1,45 @@
-<div>
-    <app-header></app-header>
+<div class="min-h-screen bg-gradient-to-br from-orange-100 from-30% to-teal-100">
+    <div>
+        <app-header></app-header>
+    </div>
+    <div class="grid grid-flow-col">
+        <div *ngIf="careers" class="p-2 grid grid-cols-2 gap-1">
+            <div *ngFor="let job of careers" (click)="clicked(job.id)"
+                class="rounded-xl w-fit h-fit md:w-80 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-orange-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-orange-50 to-orange-100 duration-300 ease-linear cursor-pointer md:shrink">
+                <img src="{{job.image}}" alt="img" class="w-72 rounded-md mx-auto ">
+                <p class="text-center font-light p-2">{{job.title}}</p>
+            </div>
+        </div>
+        <div *ngIf="clickedJob != -1" class="rounded-xl mx-auto p-2 font-light max-w-screen-sm">
+            <div class="font-light text-3xl text-center pb-4">
+                {{careers[clickedJob].title|uppercase}}
+            </div>   
+            <div class="p-2">
+                {{"Rólunk"|uppercase}}
+            </div> 
+            <div class="p-2">
+                {{careers[clickedJob].about}}
+            </div>
+            <div class="p-2">
+                {{careers[clickedJob].description}}
+            </div>     
+            <div class="p-2">
+                {{"Téged keresünk, ha"|uppercase}}
+            </div>    
+            <div class="p-2" *ngIf="careers[clickedJob].skills.length > 0">                
+                <div *ngFor="let skill of careers[clickedJob].skills" class="ps-5">
+                    ... {{skill}}
+                </div>
+            </div>  
+            <div class="p-2">
+                {{"Előnyök"|uppercase}}
+            </div> 
+            <div class="p-2">
+                {{careers[clickedJob].about}}
+            </div> 
+        </div>
+    </div>    
+    <div *ngIf="!careers" class="font-light text-4xl text-center text-orange-400">
+        Jelenleg nincs betöltendő pozíciónk.
+    </div>
 </div>

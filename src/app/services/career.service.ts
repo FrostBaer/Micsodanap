@@ -12,6 +12,6 @@ export class CareerService {
   constructor() { }
 
   public getCareers() : Observable<Career[]>{
-    return of(mockCareer.career);
+    return of(mockCareer.careers);
   }
 }

@@ -3,46 +3,78 @@
         <div>
             <app-header></app-header>
         </div>
-        <div class="grid grid-cols-4 gap-4">
-            <div
-                class="rounded-xl w-52 h-64 mx-auto mt-10 bg-gradient-to-tl p-[4px] from-[#fffab8] via-[#eba85c] to-[#f0740f] duration-300 hover:scale-103 ease-linear cursor-pointer">
-                <div class="flex flex-col justify-between h-full bg-white text-white rounded-lg p-4">
-                    <div
-                        class="text-transparent text-center text-2xl m-auto bg-clip-text bg-gradient-to-br from-amber-200 via-orange-300 to-orange-600">
-                        Ingyenes programok
-                    </div>
-                </div>
-            </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 py-6">
             <a [routerLink]="'/hiking'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-sky-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-sky-100 to-sky-200 duration-300 ease-linear cursor-pointer">
-                <img src="../assets/t2.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Csúcshódítás</p>
+                class="bg-cover bg-hike_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Csúcshódítás</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">A hegyek szerelmeseinek.</div>
+                </div>                
             </a>
             <a [routerLink]="'/adventure'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-green-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-green-100 to-green-200 duration-300 ease-linear cursor-pointer">
-                <!-- origin-bottom rotate-0 duration-500 hover:rotate-3 ease-linear -->
-                <img src="../assets/t10.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Kalandtúrák</p>
+                class="bg-cover bg-adventure_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Kalandtúrák</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Lecsúsznál egy vízesésen? Megoldjuk!</div>
+                </div>                
             </a>
             <a [routerLink]="'/leisure'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-amber-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-amber-100 to-amber-200 duration-300 ease-linear cursor-pointer">
-                <img src="../assets/t8.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Kikapcsolódás</p>
+                class="bg-cover bg-leisure_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Kikapcsolódás</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Ha legszívesebben csak egy nyugágyban ringatóznál.</div>
+                </div>                
             </a>
             <a [routerLink]="'/teambuilding'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-purple-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-purple-100 to-purple-200 duration-300 ease-linear cursor-pointer">
-                <img src="../assets/t4.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Csapatépítés</p>
+                class="bg-cover bg-teambuilding_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Csapatépítés</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Ha a kollégáid laza oldalát is látni akarod.</div>
+                </div>                
             </a>
             <a [routerLink]="'/schools'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-lime-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-lime-100 to-lime-200 duration-300 ease-linear cursor-pointer">
-                <img src="../assets/t9.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Iskoláknak</p>
+                class="bg-cover bg-school_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Iskoláknak</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Nem tudod, hol legyen az erdei tábor? Van pár jó ötletünk.</div>
+                </div>                
             </a>
             <a [routerLink]="'/kindergarten'"
-                class="rounded-xl w-52 mx-auto backdrop-blur-sm bg-white/30 m-4 py-2 hover:text-red-900 hover:scale-103 hover:shadow-lg hover:bg-gradient-to-r from-red-100 to-red-200 duration-300 ease-linear cursor-pointer">
-                <img src="../assets/t6.jpg" alt="waterfall" class="w-44 rounded-md mx-auto ">
-                <p class="text-center font-light p-2">Óvodáknak</p>
+                class="bg-cover bg-kindergarten_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Óvodáknak</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Az óvónőknek is jár a pihenés.</div>
+                </div>                
+            </a>
+            <a [routerLink]="'/family'"
+                class="bg-cover bg-family_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Családi nyaralás</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Kicsiknek és nagyoknak.</div>
+                </div>                
+            </a>
+            <a [routerLink]="'/free'"
+                class="bg-cover bg-free_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Ingyenes</div>
+                    </div>
+                    <div class="flex-wrap m-3 text-center">Ha csak egy rövid kiruccanásra vágysz.</div>
+                </div>                
             </a>
         </div>
         <!-- <app-tour-list></app-tour-list> -->
