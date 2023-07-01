@@ -1,6 +1,6 @@
 <div *ngIf="tours" class="p-2 grid grid-cols-4 gap-5">
     <div *ngFor="let tour of tours">
-        <div (click)="navigateTo()"
+        <div [routerLink]="['/tour', tour.id]"
             class="rounded-xl w-72 mx-auto bg-white m-4 py-2 hover:scale-[1.02] hover:shadow-lg duration-300 ease-linear cursor-pointer">
             <span class="animate-bounce w-6 h-3 rounded-sm bg-gradient-to-r from-amber-400 to-orange-400 text-light text-white">
                 {{tour.price}} Ft

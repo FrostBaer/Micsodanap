@@ -19,6 +19,7 @@ import { GyikComponent } from './components/gyik/gyik.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FamilyComponent } from './components/tour-types/family/family.component';
 import { FreeComponent } from './components/tour-types/free/free.component';
+import { TourDetailsComponent } from './components/tour-details/tour-details.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FreeComponent } from './components/tour-types/free/free.component';
     GyikComponent,
     ContactComponent,
     FamilyComponent,
-    FreeComponent
+    FreeComponent,
+    TourDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,13 @@
             "id": "0",
             "name": "A Magas-Tátra hegyvilága",
             "image": "../assets/bg1.jpg",
+            "startDate": "2023. 08. 03.",
+            "endDate": "2023. 08. 08.",
             "duration": "6 nap",
             "price": 50000,
             "location": "Poprad",
             "country": "Szlovákia",
-            "description": "Mi ott leszünk. És Te?",
+            "description": "Mi ott leszünk. És Te? Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "hike",
                 "adventure"
@@ -18,11 +20,13 @@
             "id": "1",
             "name": "Szlovén csúcsok I. - Grintovac",
             "image": "../assets/bg11.webp",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 07.",
             "duration": "3 nap",
             "price": 30000,
             "location": "Kamnik",
             "country": "Szlovénia",
-            "description": "6 órás túra Szlovénia legmagasabb csúcsára.",
+            "description": "6 órás túra Szlovénia legmagasabb csúcsára. Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "hike"
             ]
@@ -31,11 +35,13 @@
             "id": "2",
             "name": "Szlovén csúcsok II. Dolina Krma - Planika -Triglav",
             "image": "../assets/bg11.webp",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 07.",
             "duration": "3 nap",
             "price": 30000,
             "location": "Jesenice",
             "country": "Szlovénia",
-            "description": "",
+            "description": "Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "hike"
             ]
@@ -44,11 +50,13 @@
             "id": "3",
             "name": "Kalandozás az Alacsony-Tátrában",
             "image": "../assets/bg2.jpg",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 09.",
             "duration": "5 nap",
             "price": 50000,
             "location": "Poprad",
             "country": "Szlovákia",
-            "description": "",
+            "description": "Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "adventure",
                 "teambuilding",
@@ -59,12 +67,13 @@
             "id": "4",
             "name": "Tátrai fürdők",
             "image": "../assets/bg5.jpg",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 07.",
             "duration": "3 nap",
             "price": 60000,
             "location": "Poprad",
             "country": "Szlovákia",
-            "type": "HolidayType.leisure",
-            "description": "",
+            "description": "Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "leisure",
                 "family"
@@ -74,11 +83,13 @@
             "id": "5",
             "name": "Siklók, csuszkák nyomában",
             "image": "../assets/bg8.jpg",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 05.",
             "duration": "4 óra",
             "price": 1500,
             "location": "Tata, Fényes tanösvény",
             "country": "Magyarország",
-            "description": "",
+            "description": "Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "kindergarten"
             ]
@@ -87,11 +98,13 @@
             "id": "6",
             "name": "Természetes mesék",
             "image": "../assets/bg8.jpg",
+            "startDate": "2023. 08. 07.",
+            "endDate": "2023. 08. 07.",
             "duration": "2 óra",
             "price": 1000,
             "location": "Pest megye",
             "country": "Magyarország",
-            "description": "Az erdőről az erdőben - gyerekeknek.",
+            "description": "Az erdőről az erdőben - gyerekeknek.  Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "kindergarten"
             ]
@@ -100,11 +113,13 @@
             "id": "7",
             "name": "Kiránduljunk együtt!",
             "image": "../assets/bg9.jpg",
+            "startDate": "2023. 08. 14.",
+            "endDate": "2023. 08. 14.",
             "duration": "5 óra",
             "price": 0,
             "location": "Pilisvörösvár",
             "country": "Magyarország",
-            "description": "Túrázz velünk a Pilisben!",
+            "description": "Túrázz velünk a Pilisben!  Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "leisure",
                 "family"
@@ -114,11 +129,13 @@
             "id": "8",
             "name": "Barlangolás Aggteleken",
             "image": "../assets/bg10.jpg",
-            "duration": "2 éjszaka",
+            "startDate": "2023. 08. 05.",
+            "endDate": "2023. 08. 07.",
+            "duration": "3 nap",
             "price": 10000,
             "location": "Aggteleki Nemzeti Park",
             "country": "Magyarország",
-            "description": "Fedezd fel az Aggteleki karsztot!",
+            "description": "Fedezd fel az Aggteleki karsztot! Nunc quis lorem sagittis, elementum justo non, bibendum turpis. Vivamus ullamcorper massa erat. Integer blandit molestie arcu eget laoreet. Quisque non massa ac magna molestie vulputate ac non metus. Quisque id mauris aliquet, accumsan elit non, vehicula turpis. Pellentesque varius dictum felis in faucibus. Suspendisse blandit volutpat molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sed ex ligula. Donec eu dui tincidunt, accumsan massa ut, laoreet odio. Mauris iaculis nisl blandit, varius sapien a, cursus velit. Cras cursus nunc at augue interdum fermentum. Praesent at leo ac massa hendrerit tincidunt volutpat nec ipsum. Maecenas ultricies, ante nec imperdiet semper, massa neque placerat quam, id congue elit enim sed dui. Sed bibendum, tortor quis fringilla convallis, tortor ex posuere mauris, id euismod metus est in augue. Pellentesque feugiat orci in condimentum pharetra. Morbi aliquam hendrerit ultricies. Quisque eu elit lacus. Phasellus maximus nulla varius tellus efficitur porttitor. Vivamus et felis nunc. Pellentesque consectetur et nibh vitae commodo. Fusce vitae sapien rhoncus, auctor justo a, elementum enim. Duis faucibus ornare tincidunt. Duis id egestas velit, et vehicula felis. Vestibulum ac odio nisi. Aenean sit amet est ex. In hac habitasse platea dictumst. Aenean at lorem eu risus fermentum laoreet. Proin commodo leo enim. Maecenas sollicitudin mauris at metus aliquam, vitae pellentesque ipsum pharetra. Sed accumsan faucibus massa a iaculis. Ut sed purus nunc. Fusce nec dolor efficitur, vehicula nulla ut, aliquam dolor. Nullam nec imperdiet lacus. Nulla eget vehicula sem, ac congue augue. Vestibulum molestie, massa id tristique porttitor, ligula eros volutpat velit, at gravida nisl odio sed massa. Nunc quis elit nibh. Nam nec orci rutrum, commodo diam at, tempor odio. Maecenas at magna efficitur, ultricies urna sed, suscipit turpis. Cras tincidunt est non iaculis venenatis.",
             "category": [
                 "leisure",
                 "adventure",

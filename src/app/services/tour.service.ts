@@ -10,10 +10,11 @@ import mockCategories  from '../mocks/mockCategories.json';
 })
 export class TourService {
 
-  constructor() { }
-
   getTours() : Observable<Tour[]>{
     return of(mockTours.tours);
+  }
+  getTourById(id: string) {
+    return of(mockTours.tours.find(t => t.id == id));
   }
   getCategories() : Observable<string[]>{
     return of(mockCategories.categories);

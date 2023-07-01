@@ -10,6 +10,7 @@ import { KindergartenComponent } from './components/tour-types/kindergarten/kind
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { CareerComponent } from './components/career/career.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TourDetailsComponent } from './components/tour-details/tour-details.component';
 
 const routes: Routes = [
   { path: "", component: MastheadComponent },
@@ -21,9 +22,8 @@ const routes: Routes = [
   { path: "kindergarten", component: KindergartenComponent },
   { path: "gallery", component: GalleryComponent },
   { path: "career", component: CareerComponent },
-  { path: "contact", component: ContactComponent },
-  
-  // { path: "post/:id", component: PostDetailsComponent },
+  { path: "contact", component: ContactComponent },  
+  { path: "tour/:id", component: TourDetailsComponent },
   
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];

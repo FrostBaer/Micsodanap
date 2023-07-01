@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Tour } from 'src/app/models/tour.type';
 import { TourService } from 'src/app/services/tour.service';
 
@@ -13,9 +14,5 @@ export class TourListComponent implements OnInit{
 
   ngOnInit(): void {
     this.tourService.getTours().subscribe(t => { this.tours = t; });
-  }
-
-  public navigateTo(){
-
   }
 }
