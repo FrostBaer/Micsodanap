@@ -11,6 +11,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { CareerComponent } from './components/career/career.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TourDetailsComponent } from './components/tour-details/tour-details.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 const routes: Routes = [
   { path: "", component: MastheadComponent },
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: "gallery", component: GalleryComponent },
   { path: "career", component: CareerComponent },
   { path: "contact", component: ContactComponent },  
+  { path: "blog", component: BlogComponent }, 
   { path: "tour/:id", component: TourDetailsComponent },
   
   { path: '**', redirectTo: '/', pathMatch: 'full' }

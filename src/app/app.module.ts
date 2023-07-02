@@ -20,6 +20,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FamilyComponent } from './components/tour-types/family/family.component';
 import { FreeComponent } from './components/tour-types/free/free.component';
 import { TourDetailsComponent } from './components/tour-details/tour-details.component';
+import { CanvasComponent } from './components/canvas/canvas.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { TourDetailsComponent } from './components/tour-details/tour-details.com
     ContactComponent,
     FamilyComponent,
     FreeComponent,
-    TourDetailsComponent
+    TourDetailsComponent,
+    CanvasComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

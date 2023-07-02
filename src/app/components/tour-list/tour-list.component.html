@@ -1,12 +1,14 @@
-<div *ngIf="tours" class="p-2 grid grid-cols-4 gap-5">
-    <div *ngFor="let tour of tours">
+<div *ngIf="tours" class="gap-6 md:columns-2 lg:columns-4 mx-4">
+    <div *ngFor="let tour of tours" class="py-2 shrink">
         <div [routerLink]="['/tour', tour.id]"
-            class="rounded-xl w-72 mx-auto bg-white m-4 py-2 hover:scale-[1.02] hover:shadow-lg duration-300 ease-linear cursor-pointer">
-            <span class="animate-bounce w-6 h-3 rounded-sm bg-gradient-to-r from-amber-400 to-orange-400 text-light text-white">
+            class="break-inside-avoid-column rounded-xl bg-white py-2 hover:scale-[1.02] hover:shadow-lg duration-300 ease-linear cursor-pointer">
+            <span class="rounded-sm bg-gradient-to-r from-amber-400 to-orange-400 text-light text-white">
                 {{tour.price}} Ft
             </span>
-            <img src="{{tour.image}}" alt="waterfall"
-                class="w-56 rounded-md mx-auto origin-bottom rotate-0 duration-500 hover:rotate-3 ease-linear">
+            <div class="px-4 py-2">
+                <img src="{{tour.image}}" alt="img"
+                class="rounded-md mx-auto origin-bottom rotate-0 hover:rotate-3 duration-500 ease-linear">
+            </div>
             <p class="text-center font-light p-2">{{tour.name}}</p>
         </div>
     </div>

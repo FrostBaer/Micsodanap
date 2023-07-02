@@ -11,3 +11,9 @@ export interface Tour {
     description: string,
     category: string[]
 }
+
+export interface Category {
+    name: string,
+    description: string,
+    route: string
+}

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { Tour } from '../models/tour.type';
+import { Category, Tour } from '../models/tour.type';
 
 import mockTours  from '../mocks/mockTours.json';
 import mockCategories  from '../mocks/mockCategories.json';
@@ -16,7 +16,7 @@ export class TourService {
   getTourById(id: string) {
     return of(mockTours.tours.find(t => t.id == id));
   }
-  getCategories() : Observable<string[]>{
+  getCategories() : Observable<Category[]>{
     return of(mockCategories.categories);
   }
 }

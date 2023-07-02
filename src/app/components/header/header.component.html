@@ -1,20 +1,24 @@
 <div class="p-4 m-auto text-white font-light">
-    <div class="border border-transparent border-b-orange-400 rounded flex flex-row flex-wrap justify-between backdrop-blur-lg bg-white/30">
-        <div class="basis-1/2 my-2 flex">
-            <p
-                class="py-2 ps-4 text-4xl font-thin text-transparent bg-clip-text bg-gradient-to-br from-amber-200 via-amber-400 via-20% to-orange-600">
-                MiCsodaNap
-            </p>
-            <div routerLink="/" class="pt-2 w-fit cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                    class="bi bi-sun-fill fill-amber-400 rounded-sm mx-auto origin-center rotate-0 duration-300 hover:rotate-45 ease-linear"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-                </svg>
-            </div>
+    <div
+        class="border border-transparent border-b-orange-400 rounded flex flex-row flex-wrap justify-between backdrop-blur-lg bg-white/30">
+        <div class="basis-1/2 h-fit">
+            <div class="flex">
+                <p
+                    class="py-2 ps-4 text-4xl font-thin text-transparent bg-clip-text bg-gradient-to-br from-amber-200 via-amber-400 via-20% to-orange-600">
+                    MiCsodaNap
+                </p>
+                <div routerLink="/" class="my-1 pt-1 w-fit cursor-pointer bg-gradient-to-b from-amber-200 to-cyan-100 rounded-lg border">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        class="bi bi-sun-fill fill-amber-400 rounded-sm origin-center rotate-0 duration-300 hover:rotate-45 ease-linear"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                    </svg>
+                    <div class="h-fit w-fit"><app-canvas [width]=40 [height]=30></app-canvas></div>
+                </div>
+            </div>            
         </div>
-        <div class="my-2 basis-1/2 flex">
+        <div class="basis-1/2 flex">
             <div class="basis-1/2 my-2 text-center text-lg">
                 <div routerLink="/gallery"
                     class="mx-4 p-2 text-2xl text-amber-500 rounded hover:backdrop-blur-md hover:bg-white/30 border border-transparent hover:border-b-amber-500 duration-300 ease-linear cursor-pointer">
@@ -27,6 +31,6 @@
                     Bejelentkezés
                 </div>
             </div>
-        </div>    
-    </div>    
+        </div>
+    </div>
 </div>

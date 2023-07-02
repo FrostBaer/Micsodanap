@@ -3,80 +3,21 @@
         <div>
             <app-header></app-header>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 py-6">
-            <a [routerLink]="'/hiking'"
-                class="bg-cover bg-hike_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Csúcshódítás</div>
+        <div *ngIf="categories" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 py-6">
+            <div *ngFor="let category of categories">
+                <a routerLink="/hike" 
+                    class="group bg-cover bg-hike_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                    <div class="w-full">
+                        <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
+                            <div class="m-auto font-light text-white text-3xl lg:text-4xl">{{category.name}}</div>
+                        </div>
+                        <div
+                            class="text-transparent rounded-md group-hover:text-black group-hover:backdrop-blur-sm group-hover:bg-white/30 flex-wrap m-3 text-center">
+                            {{category.description}}</div>
                     </div>
-                    <div class="flex-wrap m-3 text-center">A hegyek szerelmeseinek.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/adventure'"
-                class="bg-cover bg-adventure_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Kalandtúrák</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Lecsúsznál egy vízesésen? Megoldjuk!</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/leisure'"
-                class="bg-cover bg-leisure_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Kikapcsolódás</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Ha legszívesebben csak egy nyugágyban ringatóznál.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/teambuilding'"
-                class="bg-cover bg-teambuilding_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Csapatépítés</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Ha a kollégáid laza oldalát is látni akarod.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/schools'"
-                class="bg-cover bg-school_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Iskoláknak</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Nem tudod, hol legyen az erdei tábor? Van pár jó ötletünk.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/kindergarten'"
-                class="bg-cover bg-kindergarten_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Óvodáknak</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Az óvónőknek is jár a pihenés.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/family'"
-                class="bg-cover bg-family_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Családi nyaralás</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Kicsiknek és nagyoknak.</div>
-                </div>                
-            </a>
-            <a [routerLink]="'/free'"
-                class="bg-cover bg-free_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto text-transparent hover:text-black hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                <div class="w-full">
-                    <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                        <div class="m-auto font-light text-white text-3xl lg:text-4xl">Ingyenes</div>
-                    </div>
-                    <div class="flex-wrap m-3 text-center">Ha csak egy rövid kiruccanásra vágysz.</div>
-                </div>                
-            </a>
+                </a>
+            </div>
+
         </div>
-        <!-- <app-tour-list></app-tour-list> -->
     </div>
 </section>
