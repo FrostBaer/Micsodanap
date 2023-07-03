@@ -20,8 +20,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FamilyComponent } from './components/tour-types/family/family.component';
 import { FreeComponent } from './components/tour-types/free/free.component';
 import { TourDetailsComponent } from './components/tour-details/tour-details.component';
-import { CanvasComponent } from './components/canvas/canvas.component';
+import { WaterComponent } from './components/canvas/water/water.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { MountainsComponent } from './components/canvas/mountains/mountains.component';
 
 @NgModule({
   declarations: [
@@ -43,8 +44,9 @@ import { BlogComponent } from './components/blog/blog.component';
     FamilyComponent,
     FreeComponent,
     TourDetailsComponent,
-    CanvasComponent,
-    BlogComponent
+    WaterComponent,
+    BlogComponent,
+    MountainsComponent
   ],
   imports: [
     BrowserModule,

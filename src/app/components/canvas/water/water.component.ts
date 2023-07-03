@@ -1,10 +1,10 @@
 import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-canvas',
-  templateUrl: './canvas.component.html'
+  selector: 'app-water',
+  templateUrl: './water.component.html'
 })
-export class CanvasComponent implements OnInit {
+export class WaterComponent implements OnInit {
   @ViewChild('canvas', { static: true })
   canvas!: ElementRef<HTMLCanvasElement>;
 
@@ -21,7 +21,7 @@ export class CanvasComponent implements OnInit {
     this.animate();
   }
 
-  animate() {
+  private animate() {
     if (this.ctx) {
       let waves: Wave[] = [];
       //big waves

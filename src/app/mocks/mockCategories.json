@@ -3,47 +3,47 @@
         {
             "name": "Csúcshódítás",
             "description": "A hegyek szerelemeseinek.",
-            "route": "hike"
+            "route": "/hiking"
         },
         {
             "name": "Kalandtúrák",
             "description": "Lecsúsznál egy vízesésen? Megoldjuk!",
-            "route": "adventure"
+            "route": "/adventure"
         },
         {
             "name": "Kikapcsolódás",
             "description": "Ha legszívesebben csak egy nyugágyban ringatóznál.",
-            "route": "leisure"
+            "route": "/leisure"
         },
         {
             "name": "Csapatépítés",
             "description": "Ha a kollégáid laza oldalát is látni akarod.",
-            "route": "teambuilding"
+            "route": "/teambuilding"
         },
         {
             "name": "Iskoláknak",
             "description": "Nem tudod, hol legyen az erdei tábor? Van pár jó ötletünk.",
-            "route": "schools"
+            "route": "/schools"
         },
         {
             "name": "Óvodáknak",
             "description": "Az óvónőknek is jár a szórakozás.",
-            "route": "kindergarten"
+            "route": "/kindergarten"
         },
         {
             "name": "Családi nyaralás",
             "description": "Kicsiknek és nagyoknak.",
-            "route": "family"
+            "route": "/family"
         },
         {
             "name": "Instant",
             "description": "Ha csak egy rövid kiruccanásra vágysz.",
-            "route": "short"
+            "route": "/short"
         },
         {
             "name": "Ingyenes",
             "description": "Túrázzunk együtt!",
-            "route": "free"
+            "route": "/free"
         }
     ]
 }

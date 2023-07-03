@@ -5,7 +5,7 @@
         </div>
         <div *ngIf="categories" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 py-6">
             <div *ngFor="let category of categories">
-                <a routerLink="/hike" 
+                <a routerLink="{{category.route}}" 
                     class="group bg-cover bg-hike_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
                     <div class="w-full">
                         <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
