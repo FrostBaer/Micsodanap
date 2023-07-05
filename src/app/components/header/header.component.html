@@ -1,13 +1,10 @@
-<div class="p-4 m-auto text-white font-light">
+<div class="p-4 m-auto text-white font-light relative z-50">
     <div
-        class="border border-transparent border-b-orange-400 rounded flex flex-col md:flex-row flex-wrap justify-between backdrop-blur-lg bg-white/30 shrink">
+        class="border border-transparent border-b-orange-400 rounded flex flex-col md:flex-row flex-wrap justify-between backdrop-blur-2xl bg-white/30 shrink">
         <div class="basis-1/2 h-fit shrink">
-            <div class="flex">
-                <p
-                    class="py-2 ps-4 text-3xl md:text-4xl font-thin text-transparent bg-clip-text bg-gradient-to-br from-amber-200 via-amber-400 via-20% to-orange-600">
-                    MiCsodaNap
-                </p>
-                <div routerLink="/" class="my-1 pt-1 w-fit cursor-pointer bg-gradient-to-b from-amber-200 to-cyan-100 rounded-lg border">
+            <div routerLink="/" class="ps-1 flex justify-center md:justify-start cursor-pointer">
+                <div
+                    class="me-1 my-1 pt-1 w-fit cursor-pointer bg-gradient-to-b from-amber-200 to-cyan-100 rounded-lg border">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                         class="bi bi-sun-fill fill-amber-400 rounded-sm origin-center rotate-0 duration-300 hover:rotate-45 ease-linear"
                         viewBox="0 0 16 16">
@@ -16,18 +13,57 @@
                     </svg>
                     <div class="h-fit w-fit"><app-water [width]=40 [height]=30></app-water></div>
                 </div>
-            </div>            
+                <p
+                    class="py-2 text-3xl md:text-4xl font-thin text-transparent bg-clip-text bg-gradient-to-br from-amber-200 via-amber-400 via-20% to-orange-600">
+                    MiCsodaNap
+                </p>
+            </div>
         </div>
-        <div class="basis-1/2 flex flex-col md:flex-row shrink">
-            <div class="basis-1/2 my-2 text-center text-lg">
+        <div class="basis-1/2 flex flex-col-reverse md:flex-row shrink">
+            <div class="relative group basis-1/3 my-2 text-center text-lg cursor-pointer">
+                <div class="bg-white/30 hover:bg-white/50 hover:shadow duration-300 ease-linear mx-4 p-2 rounded">
+                    <a class="text-lg text-center md:text-2xl text-gray-700">
+                        Kategóriák
+                    </a>
+                </div>
+                <div
+                    class="mt-1 py-2 invisible absolute flex flex-col w-full text-gray-700 z-auto group-hover:visible backdrop-blur-lg bg-white/80 rounded shadow-xl">
+                    <div routerLink="/hiking" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1 border-t border-orange-500">
+                        Csúcshódítás
+                    </div>
+                    <div routerLink="/adventure" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Kalandtúrák
+                    </div>
+                    <div routerLink="/leisure" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Kikapcsolódás
+                    </div>
+                    <div routerLink="/teambuilding" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Csapatépítés
+                    </div>
+                    <div routerLink="/schools" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Iskoláknak
+                    </div>
+                    <div routerLink="/kindergarten" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Óvodáknak
+                    </div>
+                    <div routerLink="/family" class="text-gray-700 hover:text-orange-500 md:mx-2 pt-1">
+                        Családi
+                    </div>
+                    <div routerLink="/free" class="text-gray-700 hover:text-orange-500 md:mx-2 p-1 border-b border-orange-500">
+                        Ingyenes
+                    </div>
+                </div>
+            </div>
+
+            <div class="basis-1/3 my-2 text-center text-lg">
                 <div routerLink="/gallery"
-                    class="mx-4 p-2 text-lg md:text-2xl text-amber-500 rounded hover:backdrop-blur-md bg-white/30 hover:bg-white/50 hover:scale-103 hover:shadow border border-transparent duration-300 ease-linear cursor-pointer">
+                    class="mx-4 p-2 text-lg md:text-2xl text-gray-700 rounded hover:backdrop-blur-md bg-white/30 hover:bg-white/50 hover:shadow border border-transparent duration-300 ease-linear cursor-pointer">
                     Galéria
                 </div>
             </div>
-            <div class="basis-1/2 my-2 text-center text-lg">
+            <div class="basis-1/3 my-2 text-center text-lg">
                 <div routerLink="/login"
-                    class="mx-4 p-2 text-lg md:text-2xl text-amber-500 border border-amber-500 rounded shadow backdrop-blur-md bg-white/30 hover:bg-white/50 duration-300 hover:shadow-lg hover:scale-103 ease-linear cursor-pointer">
+                    class="mx-4 p-2 text-lg md:text-2xl text-amber-600 border border-amber-500 rounded shadow backdrop-blur-md bg-white/30 hover:bg-white/50 duration-300 hover:shadow-lg hover:scale-103 ease-linear cursor-pointer">
                     Bejelentkezés
                 </div>
             </div>

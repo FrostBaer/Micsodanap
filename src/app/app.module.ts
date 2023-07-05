@@ -23,6 +23,8 @@ import { TourDetailsComponent } from './components/tour-details/tour-details.com
 import { WaterComponent } from './components/canvas/water/water.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { MountainsComponent } from './components/canvas/mountains/mountains.component';
+import { TravelGuidesComponent } from './components/registered/travel-guides/travel-guides.component';
+import { TravelsComponent } from './components/registered/travels/travels.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { MountainsComponent } from './components/canvas/mountains/mountains.comp
     TourDetailsComponent,
     WaterComponent,
     BlogComponent,
-    MountainsComponent
+    MountainsComponent,
+    TravelGuidesComponent,
+    TravelsComponent
   ],
   imports: [
     BrowserModule,

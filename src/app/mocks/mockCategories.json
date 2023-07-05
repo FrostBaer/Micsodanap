@@ -2,48 +2,57 @@
     "categories": [
         {
             "name": "Csúcshódítás",
-            "description": "A hegyek szerelemeseinek.",
-            "route": "/hiking"
+            "description": "A hegyek szerelmeseinek.",
+            "route": "/hiking",
+            "img": "/assets/bg1.jpg"
         },
         {
             "name": "Kalandtúrák",
             "description": "Lecsúsznál egy vízesésen? Megoldjuk!",
-            "route": "/adventure"
+            "route": "/adventure",
+            "img": "/assets/bg2.jpg"
         },
         {
             "name": "Kikapcsolódás",
             "description": "Ha legszívesebben csak egy nyugágyban ringatóznál.",
-            "route": "/leisure"
+            "route": "/leisure",
+            "img": "/assets/bg3.jpg"
         },
         {
             "name": "Csapatépítés",
             "description": "Ha a kollégáid laza oldalát is látni akarod.",
-            "route": "/teambuilding"
+            "route": "/teambuilding",
+            "img": "/assets/bg4.jpg"
         },
         {
             "name": "Iskoláknak",
             "description": "Nem tudod, hol legyen az erdei tábor? Van pár jó ötletünk.",
-            "route": "/schools"
+            "route": "/schools",
+            "img": "/assets/bg5.jpg"
         },
         {
             "name": "Óvodáknak",
             "description": "Az óvónőknek is jár a szórakozás.",
-            "route": "/kindergarten"
+            "route": "/kindergarten",
+            "img": "/assets/bg6.jpg"
         },
         {
             "name": "Családi nyaralás",
             "description": "Kicsiknek és nagyoknak.",
-            "route": "/family"
+            "route": "/family",
+            "img": "/assets/bg7.jpg"
         },
         {
-            "name": "Instant",
+            "name": "Egynapos",
             "description": "Ha csak egy rövid kiruccanásra vágysz.",
-            "route": "/short"
+            "route": "/short",
+            "img": "/assets/bg8.jpg"
         },
         {
             "name": "Ingyenes",
             "description": "Túrázzunk együtt!",
-            "route": "/free"
+            "route": "/free",
+            "img": "/assets/bg9.jpg"
         }
     ]
 }

@@ -1,23 +1,34 @@
 <section class="w-full bg-center bg-cover">
     <div class="w-full bg-gradient-to-br from-amber-100 via-lime-200 via-50% to-transparent">
-        <div>
-            <app-header></app-header>
-        </div>
-        <div *ngIf="categories" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-6 py-6">
-            <div *ngFor="let category of categories">
-                <a routerLink="{{category.route}}" 
-                    class="group bg-cover bg-hike_masthead min-h-[50vh] flex rounded-xl w-4/5 mx-auto hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
-                    <div class="w-full">
-                        <div class="mt-4 h-1/5 flex backdrop-blur-sm bg-white/30">
-                            <div class="m-auto font-light text-white text-3xl lg:text-4xl">{{category.name}}</div>
-                        </div>
-                        <div
-                            class="text-transparent rounded-md group-hover:text-black group-hover:backdrop-blur-sm group-hover:bg-white/30 flex-wrap m-3 text-center">
-                            {{category.description}}</div>
+        <div class="bg-school_masthead bg-center bg-cover bg-fixed">
+            <div><app-header></app-header></div>
+            <div class="flex flex-row justify-center h-[75vh]">
+                <div class="w-1/2"></div>
+                <div
+                    class="text-2xl md:text-4xl font-light w-1/2 text-center text-white backdrop-blur-lg bg-orange-200/30 rounded-2xl m-auto me-4 p-10 cursor-default">
+                    Egynapos utazások, programok kicsiknek és nagyoknak, egyénileg és csoportosan
+                    <div class="text-base pt-2">Sürgősen pihenésre van szükséged, pedig nincs egy szabad perced?</div>
+                    <div class="text-base">Programot kell szervezned, de nem jut eszedbe semmi?</div>
+                    <div class="text-base pb-2">Szívesen nyaralnál, de nincs kivel?</div>
+                    <div class="text-lg p-2">
+                        Ezt Neked találtuk ki!
                     </div>
-                </a>
+                </div>
             </div>
-
+        </div>
+        <div *ngIf="categories" class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 py-6 mx-20 lg:mx-48">
+            <div *ngFor="let category of categories" routerLink="{{category.route}}"
+                style="background-image: url('{{category.img}}');"
+                class="group bg-cover min-h-[50vh] my-3 flex rounded-xl w-5/6 mx-auto hover:scale-103 hover:shadow-lg duration-300 ease-linear shrink cursor-pointer">
+                <div class="w-full min-w-min">
+                    <div class="mt-4 h-1/5 flex backdrop-blur-lg bg-white/30">
+                        <div class="m-auto font-light text-black text-3xl lg:text-4xl">{{category.name}}</div>
+                    </div>
+                    <div
+                        class="font-light text-xl text-black backdrop-blur-lg bg-white/30 flex-wrap mx-auto my-3 px-3 py-1 text-center">
+                        {{category.description}}</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

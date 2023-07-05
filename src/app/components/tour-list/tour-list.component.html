@@ -1,4 +1,4 @@
-<div *ngIf="tours" class="gap-6 md:columns-2 lg:columns-4 mx-4">
+<div *ngIf="tours" class="gap-6 md:columns-2 lg:columns-3 mx-48">
     <div *ngFor="let tour of tours" class="py-2 shrink">
         <div [routerLink]="['/tour', tour.id]"
             class="break-inside-avoid-column rounded-xl bg-white py-2 hover:scale-[1.02] hover:shadow-lg duration-300 ease-linear cursor-pointer">

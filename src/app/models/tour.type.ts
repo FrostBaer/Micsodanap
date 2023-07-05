@@ -15,5 +15,6 @@ export interface Tour {
 export interface Category {
     name: string,
     description: string,
-    route: string
+    route: string,
+    img: string
 }
