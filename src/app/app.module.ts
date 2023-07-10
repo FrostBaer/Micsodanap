@@ -25,6 +25,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { MountainsComponent } from './components/canvas/mountains/mountains.component';
 import { TravelGuidesComponent } from './components/registered/travel-guides/travel-guides.component';
 import { TravelsComponent } from './components/registered/travels/travels.component';
+import { AuthComponent } from './components/registered/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { TravelsComponent } from './components/registered/travels/travels.compon
     BlogComponent,
     MountainsComponent,
     TravelGuidesComponent,
-    TravelsComponent
+    TravelsComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
