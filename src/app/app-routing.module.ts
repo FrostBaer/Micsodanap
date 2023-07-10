@@ -12,6 +12,7 @@ import { CareerComponent } from './components/career/career.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TourDetailsComponent } from './components/tour-details/tour-details.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { AuthComponent } from './components/registered/auth/auth.component';
 
 const routes: Routes = [
   { path: "", component: MastheadComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: "career", component: CareerComponent },
   { path: "contact", component: ContactComponent },  
   { path: "blog", component: BlogComponent }, 
+  { path: "auth", component: AuthComponent }, 
   { path: "tour/:id", component: TourDetailsComponent },
   
   { path: '**', redirectTo: '/', pathMatch: 'full' }
